@@ -1,59 +1,192 @@
 <!DOCTYPE html>
 <html lang="ru">
-
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="css/style.css">
 	<title>Главная</title>
 </head>
 
 <body>
-	<section class="main">
-	<div class="main__body">
-		<div class="main__logo"><img src="img/logo.png" alt=""></div>
-		<div class="main__title">CREATIVE BRANDING</div>
-		<div class="main__line"></div>
-		<div class="main__subtitle">Please familiarize yourself with our offer</div>
-	</div>
-	<div class="main-about main__link">About</div>
-	<div class="main-portfolio main__link">Portfolio</div>
-	<div class="main-contact main__link">Contact</div>
-</section>
-	<section class="about">
-	<div class="about__body body">
-		<div class="aboud__body-header body-header">
-			<div class="about__body-title body-title">ABOUT US</div>
-			<div class="about__body-line body-line"></div>
-			<div class="about__body-subtitle body-subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</div>
+	<header class="header container">
+		<div class="header__logo"><img src="img/logo.png" alt=""><p class="header__p">mamon</p></div>
+		<ul class="header__ul">
+			<li class="header__li"><a href="#services" class="header__a">Services</a></li>
+			<li class="header__li"><a href="#clients" class="header__a">Clients</a></li>
+			<li class="header__li"><a href="#team" class="header__a">Our team</a></li>
+			<li class="header__li"><a href="#" class="header__a">Contact Us</a></li>
+		</ul>
+		<div class="header__burger">
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>		
+	</header>
+	<section class="main container">
+			<h1 class="main__h1">We're an independent development agency.</h1>
+			<div class="main__text">We understand the intricacies of web development inside-out. That's why we build rock-solid Mobile and Web applications enriched with user-centered visual experiences.</div>
+			<a href="#" class="main__btn">Contact Us</a>
+	</section>
+	<section class="services" id="services">
+		<div class="services__content container">
+			<div class="services__item">
+				<div class="item__icon"><img src="img/icon_01.png" alt=""></div>
+				<div class="item__body">
+					<div class="item__body-title">Mobile Development</div>
+					<div class="item__body-text">We develop mobile apps for all contemporary 
+						mobile platforms. Mamon team builds 
+						native and cross-platform solutions.</div>
+				</div>
+			</div>
+			<div class="services__item">
+				<div class="item__icon"><img src="img/icon_02.png" alt=""></div>
+				<div class="item__body">
+					<div class="item__body-title">Web Development</div>
+					<div class="item__body-text">Mamon offers full range of services from various CMS and frameworks based websites to complex ERP/CRM solutions and e-commerce stores.</div>
+				</div>
+			</div>
+			<div class="services__item">
+				<div class="item__icon"><img src="img/icon_03.png" alt=""></div>
+				<div class="item__body">
+					<div class="item__body-title">Product Design</div>
+					<div class="item__body-text">We create design given the product audience, goal, business domain, technology an the platform for the solution.</div>
+				</div>
+			</div>
+			<div class="services__item">
+				<div class="item__icon"><img src="img/icon_04.png" alt=""></div>
+				<div class="item__body">
+					<div class="item__body-title">Quality Assurance</div>
+					<div class="item__body-text">Our QA team ensures high standard of quality of products delivered.
+						</div>
+				</div>
+			</div>
 		</div>
-		<div class="about__body-content">
-			<div class="about__body-item">
-				<div class="body__item-icon"><img src="img/about-01.png" alt=""></div>
-				<div class="body__item-title">RESPONSIVE</div>
-				<div class="about__body-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</div>
+	</section>
+	<section class="clients" id="clients">
+		<div class="clients__content container">
+			<div class="clients__item">
+				<img src="img/logo_01.svg" alt="">
 			</div>
-			<div class="about__body-item">
-				<div class="body__item-icon"><img src="img/about-02.png" alt=""></div>
-				<div class="body__item-title">MINIMALIST</div>
-				<div class="about__body-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</div>
+			<div class="clients__item">
+				<img src="img/logo_02.svg" alt="">
 			</div>
-			<div class="about__body-item">
-				<div class="body__item-icon"><img src="img/about-03.png" alt=""></div>
-				<div class="body__item-title">FREEBIES</div>
-				<div class="about__body-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</div>
+			<div class="clients__item">
+				<img src="img/logo_03.svg" alt="">
+			</div>
+			<div class="clients__item">
+				<img src="img/logo_04.svg" alt="">
+			</div>
+			<div class="clients__item">
+				<img src="img/logo_05.svg" alt="">
+			</div>
+			<div class="clients__item">
+				<img src="img/logo_06.svg" alt="">
+			</div>
+			<div class="clients__item">
+				<img src="img/logo_07.svg" alt="">
+			</div>
+			<div class="clients__item">
+				<img src="img/logo_08.svg" alt="">
+			</div>
+			<div class="clients__item">
+				<img src="img/logo_09.svg" alt="">
+			</div>
+			<div class="clients__item">
+				<img src="img/logo_10.svg" alt="">
+			</div>
+			<div class="clients__item">
+				<img src="img/logo_11.svg" alt="">
+			</div>
+			<div class="clients__item">
+				<img src="img/logo_12.svg" alt="">
 			</div>
 		</div>
-	</div>
-	<div class="about__link">Home</div>
-</section>
-
-dmfsdfk
+	</section>
+	<section class="team" id="team">
+		<div class="team__content container">
+			<div class="team__item">
+				<div class="team__item-photo"><img src="img/man_01.png" alt=""></div>
+				<div class="team__item-body">
+					<div class="item__body-title">Vadim</div>
+					<div class="item__body-text">Managing Director</div>
+				</div>
+			</div>
+			<div class="team__item">
+				<div class="team__item-photo"><img src="img/man_02.png" alt=""></div>
+				<div class="team__item-body">
+					<div class="item__body-title">Sergey</div>
+					<div class="item__body-text">Technology Director</div>
+				</div>
+			</div>
+			<div class="team__item">
+				<div class="team__item-photo"><img src="img/man_03.png" alt=""></div>
+				<div class="team__item-body">
+					<div class="item__body-title">Andrey</div>
+					<div class="item__body-text">Front-end Developer</div>
+				</div>
+			</div>
+			<div class="team__item">
+				<div class="team__item-photo"><img src="img/man_04.png" alt=""></div>
+				<div class="team__item-body">
+					<div class="item__body-title">Alex</div>
+					<div class="item__body-text">Front-end Developer</div>
+				</div>
+			</div>
+			<div class="team__item">
+				<div class="team__item-photo"><img src="img/man_05.png" alt=""></div>
+				<div class="team__item-body">
+					<div class="item__body-title">Agneshka</div>
+					<div class="item__body-text">Mobile Developer</div>
+				</div>
+			</div>
+			<div class="team__item">
+				<div class="team__item-photo"><img src="img/man_06.png" alt=""></div>
+				<div class="team__item-body">
+					<div class="item__body-title">Dmitry</div>
+					<div class="item__body-text">Back-end Developer</div>
+				</div>
+			</div>
+			<div class="team__item">
+				<div class="team__item-photo"><img src="img/man_07.png" alt=""></div>
+				<div class="team__item-body">
+					<div class="item__body-title">Artyom</div>
+					<div class="item__body-text">Back-end Developer</div>
+				</div>
+			</div>
+			<div class="team__item">
+				<div class="team__item-photo"><img src="img/man_08.png" alt=""></div>
+				<div class="team__item-body">
+					<div class="item__body-title">Evgeny</div>
+					<div class="item__body-text">Product Designer</div>
+				</div>
+			</div>
+			<div class="team__item">
+				<div class="team__item-photo"><img src="img/man_09.png" alt=""></div>
+				<div class="team__item-body">
+					<div class="item__body-title">Tom</div>
+					<div class="item__body-text">Product Designer</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<div class="footer__content container">
+			<div class="footer__logo"><img src="img/logo.png" alt=""></div>
+			<div class="footer__social">
+				<a href="#" class="social__a"><img src="img/social_01.svg" alt=""></a>
+				<a href="#" class="social__a"><img src="img/social_02.svg" alt=""></a>
+				<a href="#" class="social__a"><img src="img/social_03.svg" alt=""></a>
+				<a href="#" class="social__a"><img src="img/social_04.svg" alt=""></a>
+			</div>
+		</div>
+	</footer>
 	<script
-  	src="https://code.jquery.com/jquery-3.6.0.min.js"
-  	integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
-  	crossorigin="anonymous"></script>
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
 	<script src="js/script.js"></script>
 </body>
 
